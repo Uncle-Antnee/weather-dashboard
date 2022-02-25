@@ -4,14 +4,15 @@ Week 6 challenge
 ## Description
 Made a simple weather tracker. using Server Side APIs
 
-links
+## links
 https://uncle-antnee.github.io/weather-dashboard/
 
-Screenshot
+## Screenshot
 
+<img src=./assets/image/weather.png />
 
-Website made using
+## Website made using
 HTML, CSS, JS
 
-contact info
+## contact info
 ajwwja@gmail.com
