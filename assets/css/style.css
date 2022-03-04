@@ -1,0 +1,22 @@
+body{
+    background-image: url(../image/sunflower.jpg);     
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+#search-city{
+    background-color: rgb(240, 240, 240, .4);
+    border-radius: 10px;
+}
+
+#today-weather{
+    background-color: rgb(240, 240, 240, .4);
+    border-radius: 10px;
+}
+
+#weekly{
+    background-color: rgb(52, 119, 235, .6);
+    border-radius: 10px;
+}

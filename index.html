@@ -7,17 +7,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Weather Dashboard</title>
 </head>
 
 <body>
-    <header class="container-fluid text-center text-white bg-dark p-2">
+    <header class="container-fluid text-center text-white bg-primary p-2">
         <h1>Weather Dashboard</h1>
     </header>
+    <br>
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-3 bg-light">
+            <div id="search-city" class="col-lg-3">
                 <h5 class="mt-1">Search for a City:</h5>
                 <div class="input-group mb-3">
                     <input id="enter-city" type="text" class="form-control" placeholder="Enter a city" aria-label="Enter a city">
@@ -49,11 +51,11 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-2 forecast bg-primary text-white m-2 rounded"></div>
-                    <div class="col-md-2 forecast bg-primary text-white m-2 rounded"></div>
-                    <div class="col-md-2 forecast bg-primary text-white m-2 rounded"></div>
-                    <div class="col-md-2 forecast bg-primary text-white m-2 rounded"></div>
-                    <div class="col-md-2 forecast bg-primary text-white m-2 rounded"></div>
+                    <div id="weekly" class="col-md-2 forecast text-white m-2"></div>
+                    <div id="weekly" class="col-md-2 forecast text-white m-2"></div>
+                    <div id="weekly" class="col-md-2 forecast text-white m-2"></div>
+                    <div id="weekly" class="col-md-2 forecast text-white m-2"></div>
+                    <div id="weekly" class="col-md-2 forecast text-white m-2"></div>
                 </div>
             </div>
         </div>
