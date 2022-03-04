@@ -9,10 +9,10 @@ https://uncle-antnee.github.io/weather-dashboard/
 
 ## Screenshot
 
-<img src=./assets/image/weather.png />
+<img src=./assets/image/weather.jpg/>
 
 ## Website made using
-HTML, CSS, JS
+HTML, Bootstrap, CSS, JS
 
 ## contact info
 ajwwja@gmail.com
